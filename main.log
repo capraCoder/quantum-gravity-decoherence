@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.10)  14 DEC 2025 15:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.10)  14 DEC 2025 16:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -532,7 +532,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 166.
 
-<figures/figure1.pdf, id=202, 315.72655pt x 220.9373pt>
+<figures/figure1.pdf, id=204, 315.72655pt x 220.9373pt>
 File: figures/figure1.pdf Graphic file (type pdf)
 <use figures/figure1.pdf>
 Package pdftex.def Info: figures/figure1.pdf  used on input line 176.
@@ -569,8 +569,8 @@ Underfull \hbox (badness 1303) in paragraph at lines 73--80
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 147--153
- \OT1/cmr/m/n/9 Capra-zli pro-jec-tion prin-ci-ple, Amer-i-can Jour-nal of
+Underfull \hbox (badness 10000) in paragraph at lines 148--152
+ []\OT1/cmr/m/n/9 K. M. Capra-zli, [][]capracoder/projection-principle-
  []
 
 [5]) [6] (main.aux)
@@ -583,12 +583,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  12281 strings out of 467871
- 182855 string characters out of 5418375
+ 182895 string characters out of 5418375
  631508 words of memory out of 5000000
  40938 multiletter control sequences out of 15000+600000
  637559 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,878b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,878b,655s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\capra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/capra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/capra/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -613,9 +613,9 @@ ra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
 Users/capra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.
 pfb><C:/Users/capra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/s
 ymbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 336461 bytes).
+Output written on main.pdf (6 pages, 337184 bytes).
 PDF statistics:
- 480 PDF objects out of 1000 (max. 8388607)
+ 483 PDF objects out of 1000 (max. 8388607)
  89 named destinations out of 1000 (max. 500000)
  310 words of extra memory for PDF output out of 10000 (max. 10000000)
 
