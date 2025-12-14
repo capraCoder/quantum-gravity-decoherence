@@ -133,10 +133,10 @@ quantum-gravity-paper/
 
 If you use or build upon this work, please cite:
 ```bibtex
-@article{Caprazli2024,
+@article{Caprazli2025,
   author  = {Caprazli, Kafkas M.},
   title   = {Gravitational Decoherence Rate Scales as $\cos^2\theta$ with Measurement Basis},
-  year    = {2024},
+  year    = {2025},
   note    = {Preprint available on Zenodo},
   orcid   = {0000-0002-5744-8944}
 }
