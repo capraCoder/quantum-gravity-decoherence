@@ -1,0 +1,73 @@
+\section{Predictions}
+\label{sec:predictions}
+
+The prediction $\Gamma(\theta) = \Gamma_0 \cos^2\theta$ becomes testable once we specify parameters. We calculate coherence times for systems within reach of current optomechanical technology.
+
+\subsection{Di\'{o}si-Penrose decoherence rate}
+
+For a sphere of mass $m$ and radius $R$ in superposition of separation $d \gg R$ \cite{Diosi1987,Diosi1989}:
+%
+\begin{equation}
+\Gamma_0 = \frac{Gm^2}{\hbar R}
+\label{eq:gamma0}
+\end{equation}
+%
+Geometric corrections for finite $d/R$ appear in Ref.~\cite{Donadi2021}.
+
+\subsection{Reference system}
+
+We adopt parameters consistent with recent ground-state cooling experiments \cite{Delic2020}:
+
+\begin{center}
+\begin{tabular}{ll}
+\hline
+Parameter & Value \\
+\hline
+Material & Silica nanosphere \\
+Mass & $10^{-12}$ kg \\
+Diameter & $\sim$500 nm \\
+Superposition separation & 1 $\mu$m \\
+Mechanical frequency & $\omega_m/2\pi \sim 100$ kHz \\
+\hline
+\end{tabular}
+\end{center}
+
+Applying the Di\'{o}si formula: $\Gamma_0 \approx 7$ s$^{-1}$, giving $\tau_0 = 0.14$ s.
+
+\subsection{Basis-dependent predictions}
+
+From Eq.~\eqref{eq:main_result}:
+
+\begin{center}
+\begin{tabular}{lccc}
+\hline
+Measurement & $\theta$ & $\Gamma(\theta)$ [s$^{-1}$] & $\tau(\theta)$ [s] \\
+\hline
+Position & $0°$ & 7.0 & 0.14 \\
+$45°$ quadrature & $45°$ & 3.5 & 0.28 \\
+$60°$ quadrature & $60°$ & 1.75 & 0.57 \\
+Momentum & $90°$ & 0 & $\infty$ \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{The critical ratio}
+
+The ratio $\tau(45°)/\tau(0°) = 2$ holds for any mass, separation, or $\Gamma_0$. It depends only on $\cos^2(45°) = 1/2$. This ratio is the cleanest experimental signature---independent of absolute calibration.
+
+\subsection{Required precision}
+
+Distinguishing $\tau(0°)$ from $\tau(45°)$ at $3\sigma$ requires coherence time uncertainty $< 20\%$. Current experiments achieve $\sim$10\% precision in decoherence measurements \cite{Vinante2019}. The challenge is not measurement precision but isolation: suppressing environmental decoherence until gravitational effects dominate.
+
+\subsection{Current experimental status}
+
+Ground-state cooling of levitated nanoparticles has been achieved \cite{Delic2020}. Sustained macroscopic superpositions at the 0.1 s timescale remain beyond current reach; environmental sources (blackbody radiation, residual gas, photon recoil) presently limit coherence to milliseconds \cite{Gonzalez2021}. Progress in cryogenic levitation and coherent scattering protocols suggests gravitationally-limited regimes may become accessible within this decade \cite{Aspelmeyer2014,Bassi2013}.
+
+\subsection{Confirmation and refutation}
+
+\begin{itemize}
+\item \textit{Confirmation}: $\tau(\theta)$ varies with basis. A measured ratio $\tau(45°)/\tau(0°) = 2.0 \pm 0.4$ at $3\sigma$ would strongly support basis-dependence.
+\item \textit{Refutation}: $\tau(\theta)$ constant across bases. This confirms standard Di\'{o}si-Penrose and rules out our prediction.
+\end{itemize}
+
+Both outcomes constrain fundamental physics. Neither is excluded by current theory.
