@@ -1,0 +1,65 @@
+\section{Experimental Protocol}
+\label{sec:protocol}
+
+We propose a protocol to test basis-dependent gravitational decoherence using established optomechanical techniques. The key measurement---correlating coherence decay with homodyne phase---has not previously been performed.
+
+\subsection{Platform}
+
+Levitated dielectric nanospheres provide the required mass ($\sim$10$^{-12}$ kg), thermal isolation, and optical readout \cite{Delic2020,Aspelmeyer2014}. Alternative platforms (trapped ions, superconducting circuits) access smaller masses where gravitational decoherence rates are negligible.
+
+\subsection{State preparation}
+
+Cool the center-of-mass motion to the quantum ground state via coherent scattering \cite{Delic2020} or cavity sideband cooling \cite{Tebbenjohanns2021}. Create spatial superposition through pulsed optical potentials \cite{Romero2011}. Target separation $d \sim 1$ $\mu$m.
+
+\subsection{Quadrature measurement}
+
+Optical homodyne detection accesses arbitrary quadratures \cite{Vanner2011,Wiseman2010}:
+%
+\begin{equation}
+\hat{X}_\theta = \hat{x}\cos\theta + \hat{p}\sin\theta
+\label{eq:quadrature_protocol}
+\end{equation}
+%
+The local oscillator phase $\phi_{\text{LO}}$ sets $\theta$. Phase stability $< 1°$ is routine in continuous-variable quantum optics.
+
+\subsection{Protocol}
+
+\begin{enumerate}
+\item Prepare superposition state $|\psi_0\rangle$
+\item Free evolution for time $t$
+\item Homodyne measurement at phase $\theta$
+\item Repeat $N \sim 10^3$ times
+\item Extract coherence $C(t,\theta)$ from quadrature statistics
+\item Scan $t$; fit decay curve $C(t) = C_0 e^{-\Gamma(\theta)t}$
+\item Scan $\theta$ from $0°$ to $90°$ in $\sim$15° increments
+\end{enumerate}
+
+\subsection{Data analysis}
+
+Fit measured rates to:
+%
+\begin{equation}
+\Gamma(\theta) = \Gamma_{\text{grav}} \cos^2\theta + \Gamma_{\text{env}}
+\label{eq:fit}
+\end{equation}
+%
+The parameter $\Gamma_{\text{grav}}$ quantifies basis-dependent gravitational decoherence; $\Gamma_{\text{env}}$ captures basis-independent environmental sources.
+
+\subsection{Discrimination criteria}
+
+\begin{itemize}
+\item \textit{Confirmation}: $\Gamma_{\text{grav}} > 0$ at $3\sigma$, with residuals consistent with $\cos^2\theta$ functional form.
+\item \textit{Refutation}: $\Gamma_{\text{grav}}$ consistent with zero; $\Gamma(\theta)$ flat within uncertainty.
+\end{itemize}
+
+\subsection{Control experiments}
+
+\begin{enumerate}
+\item \textit{Mass scaling}: Repeat with varied particle mass. Gravitational: $\Gamma_{\text{grav}} \propto m^2$. Environmental: weaker mass dependence.
+\item \textit{Temperature}: $\Gamma_{\text{env}}$ increases with temperature; $\Gamma_{\text{grav}}$ should not.
+\item \textit{Pressure}: $\Gamma_{\text{env}}$ from residual gas scales with pressure; $\Gamma_{\text{grav}}$ remains constant.
+\end{enumerate}
+
+\subsection{Feasibility}
+
+Every component exists independently: ground-state cooling \cite{Delic2020}, spatial superposition creation \cite{Romero2011}, phase-resolved homodyne detection \cite{Vanner2011,Wiseman2010}. The protocol combines established techniques to perform a measurement that tests a prediction not previously considered. No new apparatus is required---only a new analysis correlating $\theta$ with $\Gamma$.

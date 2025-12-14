@@ -1,0 +1,78 @@
+\section{Derivation}
+\label{sec:derivation}
+
+We derive $\Gamma(\theta) = \Gamma_0 \cos^2\theta$ from the Di\'{o}si master equation. No new physics is introduced. We ask only what the standard model predicts for measurements in bases other than position.
+
+\subsection{The Di\'{o}si master equation}
+
+For a particle of mass $m$ in one dimension, gravitational decoherence is governed by \cite{Diosi1987,Diosi1989}:
+%
+\begin{equation}
+\frac{d\hat{\rho}}{dt} = -\frac{i}{\hbar}[\hat{H}, \hat{\rho}] - \Gamma_0 [\hat{x}, [\hat{x}, \hat{\rho}]]
+\label{eq:diosi}
+\end{equation}
+%
+with $\Gamma_0 = Gm^2/(\hbar d)$ for superposition separation $d$. The double commutator with $\hat{x}$ destroys coherences between different position eigenstates at rate $\Gamma_0$.
+
+\subsection{Rotated quadrature}
+
+Define:
+%
+\begin{equation}
+\hat{X}_\theta = \hat{x} \cos\theta + \hat{p} \sin\theta
+\label{eq:quadrature}
+\end{equation}
+%
+with conjugate $\hat{P}_\theta = -\hat{x}\sin\theta + \hat{p}\cos\theta$. Inverting gives:
+%
+\begin{equation}
+\hat{x} = \hat{X}_\theta \cos\theta - \hat{P}_\theta \sin\theta
+\label{eq:inversion}
+\end{equation}
+
+\subsection{Transformation of the decoherence term}
+
+Substituting Eq.~\eqref{eq:inversion} into Eq.~\eqref{eq:diosi}:
+%
+\begin{align}
+[\hat{x}, [\hat{x}, \hat{\rho}]] &= \cos^2\theta \, [\hat{X}_\theta, [\hat{X}_\theta, \hat{\rho}]] \nonumber \\
+&+ \sin^2\theta \, [\hat{P}_\theta, [\hat{P}_\theta, \hat{\rho}]] \nonumber \\
+&+ \text{cross terms}
+\label{eq:expansion}
+\end{align}
+
+Three contributions emerge:
+\begin{enumerate}
+\item $\cos^2\theta \, [\hat{X}_\theta, [\hat{X}_\theta, \hat{\rho}]]$ --- decoheres $\hat{X}_\theta$ eigenstates
+\item $\sin^2\theta \, [\hat{P}_\theta, [\hat{P}_\theta, \hat{\rho}]]$ --- decoheres $\hat{P}_\theta$ eigenstates, not $\hat{X}_\theta$
+\item Cross terms --- produce phase-space shearing, not decoherence
+\end{enumerate}
+
+Only the first term destroys coherence between $\hat{X}_\theta$ eigenstates. The effective decoherence rate in the measured basis is therefore:
+%
+\begin{equation}
+\boxed{\Gamma(\theta) = \Gamma_0 \cos^2\theta}
+\label{eq:main_result}
+\end{equation}
+
+\subsection{Limiting cases}
+
+\begin{center}
+\begin{tabular}{lcc}
+\hline
+Measurement & $\theta$ & $\Gamma(\theta)$ \\
+\hline
+Position & $0°$ & $\Gamma_0$ \\
+Symmetric quadrature & $45°$ & $\Gamma_0/2$ \\
+Momentum & $90°$ & $0$ \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{Why $\cos^2\theta$, not $\cos\theta$}
+
+Decoherence rates scale with the square of operator couplings---parallel to Fermi's golden rule, where transition rates involve matrix elements squared. The projection of $\hat{x}$ onto $\hat{X}_\theta$ has amplitude $\cos\theta$; the resulting decoherence rate scales as $\cos^2\theta$.
+
+\subsection{What this derivation is---and is not}
+
+We have not modified the Di\'{o}si-Penrose model. We have applied it to a measurement basis other than position. The result---that observed decoherence depends on measurement basis---was always implicit in the formalism. It has simply never been extracted.

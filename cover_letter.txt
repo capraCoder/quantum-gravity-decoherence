@@ -1,0 +1,35 @@
+Dear Editors,
+
+I submit for your consideration the manuscript "Gravitational Decoherence Rate Scales as cos²θ with Measurement Basis" for publication in Physical Review Letters.
+
+SUMMARY
+
+We derive a prediction implicit in the Diósi-Penrose model but never previously extracted: gravitational decoherence rate depends on measurement basis, scaling as Γ(θ) = Γ₀cos²θ with homodyne phase θ. Position measurement reveals full decoherence; momentum measurement reveals none.
+
+SIGNIFICANCE
+
+1. Novel prediction from established physics — no modifications to Diósi-Penrose required
+2. Clean experimental signature: τ(45°)/τ(0°) = 2, independent of system parameters
+3. Testable with existing optomechanical technology
+4. Both confirmation and refutation yield significant physical insight
+
+The ratio τ(45°)/τ(0°) = 2 provides a calibration-independent test. No existing gravitational decoherence model predicts basis-dependence; all assume collapse occurs in a fixed basis regardless of measurement.
+
+DECLARATIONS
+
+- AI Use: In accordance with APS policy, AI assistants (Claude, Anthropic; Perplexity AI) were used for drafting and literature search. All scientific content, derivations, and conclusions are my own. I take full responsibility for the work.
+- Conflicts of Interest: None.
+- Funding: This research received no external funding.
+- Data Availability: Theoretical work; no experimental data generated.
+
+I believe this work is appropriate for PRL due to its potential to stimulate experimental tests of a fundamental question in quantum gravity.
+
+Thank you for your consideration.
+
+Sincerely,
+
+Kafkas M. Caprazli
+Independent Researcher
+Wolfsburg, Germany
+caprazli@gmail.com
+ORCID: 0000-0002-5744-8944
